@@ -217,18 +217,18 @@ main {
 
 
 section:nth-child(2) {
-    background: url(../다운로드766.gif)no-repeat center/cover;
+    background: url(../images/다운로드766.gif)no-repeat center/cover;
 }
 
 
 section:nth-child(3) {
-    background: url(../다운로드43555.gif)no-repeat center/cover;
+    background: url(../images/다운로드43555.gif)no-repeat center/cover;
    
 } 
 
 
 section:nth-child(4) {
-    background: url(../다운로드88887.gif
+    background: url(../images/다운로드88887.gif
 )no-repeat center/cover;
 }
 
@@ -286,15 +286,15 @@ ul {
 }
 
 .gallery1 li:nth-child(1) {
-    background: url(../다운로드88888888.gif)no-repeat center/cover;
+    background: url(../images/다운로드998.gif)no-repeat center/cover;
 }
 
 .gallery1 li:nth-child(2) {
-    background: url(../다운로드998.gif) no-repeat center/cover;
+    background: url(../images/다운로드88888888.gif) no-repeat center/cover;
 }
 
 .gallery1 li:nth-child(3) {
-    background: url(../다운로드99999.gif) no-repeat center/cover;
+    background: url(../images/다운로드99999.gif) no-repeat center/cover;
 }
 
 
@@ -364,7 +364,7 @@ a {
     left: -130px;
     width: 10px;
     height: 300px;
-    background: url(../다운로드66464.gif );
+    background: url(../images/다운로드66464.gif );
     border-radius: 50%;
     /* 원형 모양 */
     border: solid black;
@@ -385,7 +385,7 @@ a {
     width: 100%;
     border-radius: 50%;
     height: 100%;
-    background: url(../다운로드466.gif);
+    background: url(../images/다운로드466.gif);
     opacity: 0;
     visibility: hidden;
     transition: all .5s;
