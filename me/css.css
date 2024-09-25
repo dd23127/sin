@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+@media (max-width: 767px) {
+
+    main .slide1 h1 {
+        position: absolute;
+        font-size: 1rem;
+        width: 20px;
+        top: -100px;
+        left: -190px;
+    }
+
+
+    section .slide1 .m {
+        position: absolute;
+        top: 20px;
+        left: -100px;
+        width: 80px;
+        height: 80px;
+    }
+
+
+    section .slide1 li .inner {
+        font-size: 0.5rem;
+    }
+
+
+    section .box2 .b {
+        position: absolute;
+        top: 30px;
+        right: 0px;
+        width: 55px;
+        height: 60px;
+        
+
+    }
+
+
+
+
+
+    main .slide1 .gallery1 {
+        position: absolute;
+        top: 20px;
+        left: -120px;
+        width: 200px;
+        height: 400px;
+    }
+
+    main .slide1 .gallery1:hover {
+        width: 230px;
+        height: 400px;
+    }
+
+
+    .a {
+        font-size: 2rem;
+        top: 120px;
+        left: 0;
+    }
+
+    .t {
+        top: 0;
+        right: 0;
+    }
+
+
+
+    main .box2 {
+        position: absolute;
+        width: 60px;
+        height: 400px;
+        top: 20px;
+        left: 120px;
+        font-size: 0.5rem;
+    }
+
+
+
+    .box3 {
+        width: 90%;
+        left: 5%;
+        top: 180px;
+    }
+
+    .gallery-collection li .inner {
+        position: relative;
+        max-width: 400px;
+        width: 20px;
+        height: 30px;
+        bottom: -200px;
+        width: 400px;
+        right: -900px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    
+
+
+    .gallery-collection li {
+        position: relative;
+        top: 580px;
+        right: 20px;
+        width: 90px;
+        height: 70px;
+        padding: 0;
+ 
+    }
+
+    section .gallery-collection li .inner .txt {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .gallery-collection li .inner figure {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+
+    .popup .txt h2 {
+        font-size: 0.7rem;
+        position: relative;
+        right: 80px;
+
+    }
+
+    .popup .txt p {
+        font-size: 0.8rem;
+        position: absolute;
+        left: 20px;
+    } 
+
+    .popup .txt button {
+        position: absolute;
+        left: 20px;
+        bottom: 620px;
+    }
+
+
+
+
+    .popup figure video {
+        position: absolute;
+        top: 300px;
+        left: 20px;
+        width: 90%;
+        height: 50%;
+    }
+
+    .gallery-collection {
+        position: absolute;
+        max-width: 400px;
+        right: -70px;
+        top: -100px;
+    }
+
+    section .gallery-collection li:hover .inner .txt h3 {
+        font-size: 0.1rem;
+        padding-top: 0;
+    }
+
+
+
+    .f {
+        width: 413px;
+    }
+
+    section .slide1 .box2 .d {
+        position: absolute;
+        width: 900px;
+        height: 900px;
+    }
+
+    .gallery-collection li::before{
+        padding: 0;
+    }
+
+  
+}

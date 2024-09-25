@@ -1,0 +1,521 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 999;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.a {
+    display: inline-block;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    animation: slideOutLeft 2s linear 1s infinite alternate forwards running;
+    position: absolute;
+    top: 180px;
+    left: -400px;
+    transition: all .5s;
+}
+
+
+.t {
+    position: absolute;
+    top: -130px;
+    right: -700px;
+}
+
+
+
+h1 {
+    display: inline-block;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    animation: bounce 2s linear 1s infinite alternate forwards running;
+}
+
+
+span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+span:nth-child(6) {
+    animation-delay: 1s;
+}
+
+
+
+
+
+
+
+
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0 20px;
+    line-height: 50px;
+}
+
+.m {
+    position: absolute;
+    top: 150px;
+}
+
+
+.m:hover {
+    position: absolute;
+    top: 50px;
+    right: -150px;
+    animation: pang 3s linear infinite alternate both running;
+
+}
+
+
+
+
+
+
+
+
+@keyframes pang {
+
+    0% {
+        transform: scaleX(-1) rotate(-360deg);
+    }
+
+    100% {
+        transform: scaleY(-1)rotate(360deg);
+    }
+
+
+
+}
+
+
+
+
+
+
+section {
+    text-align: center;
+    position: relative;
+
+}
+
+main {
+    color: darkorange;
+}
+
+.slide1 {
+    width: 10%;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.box1 {
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 700px;
+    height: 500px;
+    background: linear-gradient(45deg, yellow, white, beige);
+    border: 4px solid black;
+}
+
+.box2 {
+    position: absolute;
+    top: 50px;
+    left: 1250px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 200px;
+    height: 500px;
+    background-color: beige;
+    border: 4px solid black;
+   
+
+}
+
+.box3 {
+    position: absolute;
+    top: 40%;
+    right: 35%;
+    box-sizing: border-box;
+    width: 500px;
+    height: 300px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.uu {
+    box-sizing: border-box;
+    width: 200px;
+    height: 40px;
+}
+
+
+
+
+section:nth-child(2) {
+    background: url(../다운로드766.gif)no-repeat center/cover;
+}
+
+
+section:nth-child(3) {
+    background: url(../다운로드43555.gif)no-repeat center/cover;
+   
+} 
+
+
+section:nth-child(4) {
+    background: url(../다운로드88887.gif
+)no-repeat center/cover;
+}
+
+
+.gotop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    display: flex;
+    z-index: 999;
+    cursor: pointer;
+
+}
+
+.gotop span {
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transform: rotate(45deg);
+}
+
+ul {
+    list-style: none;
+}
+
+.gallery1 {
+    position: absolute;
+    right: -1000px;
+    top: -50px;
+    width: 800px;
+    height: 75vh;
+    display: flex;
+
+
+}
+
+.gallery1 li {
+    flex: 1;
+    border: 3px solid chartreuse;
+    transition: all .5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery1 li:hover {
+    flex: 3;
+
+}
+
+.gallery1 li:nth-child(1) {
+    background: url(../다운로드88888888.gif)no-repeat center/cover;
+}
+
+.gallery1 li:nth-child(2) {
+    background: url(../다운로드998.gif) no-repeat center/cover;
+}
+
+.gallery1 li:nth-child(3) {
+    background: url(../다운로드99999.gif) no-repeat center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+.gallery1 li .inner {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: -350px;
+    background-color: #000;
+    color: #fff;
+    padding: 55px 30px;
+    font-size: 15px;
+}
+
+.gallery1 li:hover .inner {
+    bottom: 0;
+}
+
+
+/*여기서 부터시작*/
+
+
+
+a {
+    text-decoration: none;
+}
+
+.gallery {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.gallery-header {
+    width: 20%;
+    height: 100%;
+    padding: 10vh 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gallery-collection {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding-top: 15vh;
+
+}
+
+.gallery-collection li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 70px 40px 100px;
+    transition: all .5s;
+    position: relative;
+    top: 450px;
+    left: -130px;
+    width: 10px;
+    height: 300px;
+    background: url(../다운로드66464.gif );
+    border-radius: 50%;
+    /* 원형 모양 */
+    border: solid black;
+
+
+}
+
+.gallery-collection li:hover {
+    flex: 1.5;
+
+}
+
+.gallery-collection li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    background: url(../다운로드466.gif);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+
+
+}
+
+.gallery-collection li:hover::before {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+.gallery-collection li .inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: relative;
+    color: black;
+}
+
+.gallery-collection li .inner .txt h3 {
+    color: black;
+    font-size: 2rem;
+    padding-top: 70px;
+    margin-bottom: 40px;
+    transition: all .5s;
+}
+
+.gallery-collection li:hover .inner .txt h3 {
+    font-size: 2rem;
+    padding-top: 0;
+
+}
+
+.gallery-collection li .inner .txt h3::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    margin-top: 20px;
+    transition: all .5s;
+}
+
+.gallery-collection li:hover .inner .txt h3::after {
+    width: 120px;
+    background-color: pink;
+}
+
+.gallery-collection li .inner figure {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: 50%;
+    border: solid black;
+    border-radius: 10%;
+}
+
+.gallery-collection li .inner figure video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+
+
+
+
+
+
+
+
+
+.popup {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    padding: 20vh 7vw 14vh 20vw;
+    display: flex;
+    opacity: 0;
+    transition: all .5s;
+    
+}
+
+.popup.on {
+    left: 0;
+    opacity: 1;
+}
+
+.popup .txt {
+    width: 25%;
+    height: 100%;
+}
+
+.popup .txt h2 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.popup .txt p {
+    color: #999;
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+}
+
+.popup .txt button {
+    color: darkmagenta;
+    background-color: transparent;
+    font-size: 2rem;
+    border: none;
+}
+
+.popup figure {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%
+}
+
+.popup figure video {
+    position: absolute;
+    left: 38%;
+    top:23%;
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+}
